@@ -36,4 +36,9 @@ public VitalSigns addNewVitals(){
     
     
 }
+
+public void deleteVitals(VitalSigns vs){
+    history.remove(vs);
+}
+
 }
